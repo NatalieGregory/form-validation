@@ -10,15 +10,16 @@ Add client side form validation to Taskly Create, Edit, etc. pages.
    all invalid fields.
 1. Disable button when the form submit button is first clicked (to avoid
    the form being submitted twice)
-1. Turn date slugs into single date picker
-1. Add a 'clear' button to let users start over on the form. It should
+1. Turn date selects into single date picker
+1. Add a 'Clear' button to let users start over on the form. It should
    clear all errors & field data and disable the submit button. 
 1. Limit task list title to 20 characters
-1. Validate when focus is taken off of validated fields
+1. Validate when focus is taken off of a field
 
 ## Reach Goals
 
 Start on these tasks if you get through all of the others above.
 
-1. Don't duplicate validation logic 
+1. Don't duplicate validation logic (how can you submit a form with AJAX and re-render it all with JavaScript)?
+2. If a user manually clears the form fields, *without* using the Clear button, the submit button becomes disabled.
 
